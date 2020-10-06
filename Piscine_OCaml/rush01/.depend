@@ -1,0 +1,18 @@
+Action.cmo :
+Action.cmx :
+Bath.cmo : Action.cmo
+Bath.cmx : Action.cmx
+Creature.cmo : Utils.cmo Thender.cmo Kill.cmo Eat.cmo Bath.cmo Action.cmo
+Creature.cmx : Utils.cmx Thender.cmx Kill.cmx Eat.cmx Bath.cmx Action.cmx
+Eat.cmo : Action.cmo
+Eat.cmx : Action.cmx
+Gfx.cmo :
+Gfx.cmx :
+Kill.cmo : Action.cmo
+Kill.cmx : Action.cmx
+Thender.cmo : Action.cmo
+Thender.cmx : Action.cmx
+Utils.cmo :
+Utils.cmx :
+main.cmo : Gfx.cmo Creature.cmo
+main.cmx : Gfx.cmx Creature.cmx
